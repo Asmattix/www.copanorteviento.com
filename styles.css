@@ -1,0 +1,286 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate {
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+/* Animación de aparición */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilos para la disposición de varias columnas */
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+header,
+main,
+footer {
+  grid-column: span 2;
+}
+
+section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+nav ul {
+  |st-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+
+}
+
+/* Estilos adicionales según tus solicitudes */
+header {
+  background-color: #0077FF;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+section h2 {
+  color: #0077FF;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #999999;
+}
+
+/* Animación de aparición */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilos para la disposición de varias columnas */
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif; /* Fuente "Montserrat" */
+}
+
+header,
+main,
+footer {
+  grid-column: span 2;
+}
+
+section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Estilos adicionales según tus solicitudes */
+header {
+  background-color: #0077FF;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+section h2 {
+  color: #0077FF;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #999999;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+body {
+  background-color: #f2f2f2;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+.countdown-item {
+  text-align: center;
+  margin: 0 10px;
+  background-color: #0077FF;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+.countdown-item span {
+  display: block;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+/* Animación de aparición */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para la disposición de varias columnas */
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+/* Animación de aparición */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  /* Ajustar estilos del encabezado */
+  header {
+    text-align: center;
+  }
+  
+  nav ul {
+    flex-direction: column;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+  }
+  
+  /* Ajustar tamaño de fuente */
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  /* Ajustar tamaño de botón */
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  /* Ajustar tamaño de pie de página */
+  footer p {
+    font-size: 12px;
+  }
+}
